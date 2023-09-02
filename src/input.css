@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: "SF Pro Rounded";
+        src: url("https://db.onlinewebfonts.com/t/060fd297f19446447a9a1325ad5b889b.woff");
+    }
+
+    html{
+        font-family: Poppins;
+    }
+
+    h1{
+        font-family: SF Pro Rounded;
+    }
+}
